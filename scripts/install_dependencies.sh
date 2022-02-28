@@ -12,5 +12,5 @@ chmod +x ./install
 sudo ./install auto > /tmp/logfile
 sudo service codedeploy-agent start
 sudo service codedeploy-agent status
-git clone https://github.com/durgap09/qc.git
-cd qc/
+
+
