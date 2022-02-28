@@ -5,13 +5,13 @@ files:
     destination: /home/ubuntu/
 hooks:
   BeforeInstall:
-    - location: scripts/install_dependencies
+    - location: scripts/install_dependencies.sh
       timeout: 300
       runas: root
   ApplicationStart:
     - location: scripts/ApplicationStart.sh
       timeout: 300
       runas: root
-    - location: scripts/run.sh
+    - location: scripts/ApplicationRun.sh
       timeout: 300
       runas: root
